@@ -17,7 +17,7 @@ const ItineraryCard = () => {
           return;
         }
 
-        const response = await fetch('git push -u origin main/api/v1/itinerary', {
+        const response = await fetch('https://travelbuddy-backend-3o9d.onrender.com/api/v1/itinerary', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
