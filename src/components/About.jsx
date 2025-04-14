@@ -6,7 +6,7 @@ const About = () => {
       name: 'Hiren Khanchandani',
       
       image: 'https://media.licdn.com/dms/image/v2/D4E03AQFAjqvGYuLt6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719015431922?e=1750291200&v=beta&t=_oLm4OREeS4h6oyXISKZJlRWFFRsOR3IYZfkM6Cqfsw',
-      linkedin: 'https://www.linkedin.com/in/johndoe',
+      linkedin: 'https://www.linkedin.com/in/hiren-khanchandani',
     },
     {
       name: 'Pradyumna Upadhyay',
