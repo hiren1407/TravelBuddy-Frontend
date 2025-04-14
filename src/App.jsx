@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Body from './components/Body'
 import Dashboard from './components/Dashboard'
+import About from './components/About'
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Body/>} >
           <Route path='/' element={<Dashboard/>}/>
-          <Route path='/about'/>
+          <Route path='/about' element={<About/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
