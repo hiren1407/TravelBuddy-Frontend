@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='bg-white'>
     
     <BrowserRouter basename='/'>
     <Routes>
@@ -20,7 +20,7 @@ function App() {
     </Routes>
     </BrowserRouter>
       
-    </>
+    </div>
   )
 }
 

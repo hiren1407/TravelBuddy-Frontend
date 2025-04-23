@@ -93,7 +93,7 @@ const Dashboard = () => {
       {showDashboard && (
         <button
           onClick={startNewConversation}
-          className="fixed top-20 right-4 sm:right-8 z-10 px-4 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-600 shadow-md"
+          className="fixed top-20 right-4 sm:right-8 z-10 px-4 py-2 bg-blue-500 font-bold rounded hover:bg-blue-600 shadow-md"
         >
           Start New Conversation
         </button>
@@ -102,7 +102,7 @@ const Dashboard = () => {
       {!aiConfirmed ? (
         <div className="flex flex-col items-center py-12 flex-grow">
           <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-800 mb-6">Welcome to Travel Buddy AI-Agent</h1>
-          <h2 className="text-xl sm:text-2xl font-bold text-center text-gray-600 mb-8">Plan your trip with ease!</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-center text-gray-600 mb-6">Plan your trip with ease!</h2>
           <div className="w-full max-w-3xl">
             <ChatBox onAiResponse={handleAiResponse} />
           </div>

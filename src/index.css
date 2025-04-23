@@ -1,3 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 /* Removed invalid @plugin directive. DaisyUI should be added in the Tailwind CSS configuration file. */
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
