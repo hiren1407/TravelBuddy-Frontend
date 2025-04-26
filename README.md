@@ -7,7 +7,7 @@ Framework: React
 
 Build Tool: Vite
 
-Styling: CSS / TailwindCSS (if used)
+Styling: CSS / TailwindCSS
 
 Package Management: npm or yarn
 
